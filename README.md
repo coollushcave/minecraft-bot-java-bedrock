@@ -5,6 +5,9 @@ A Minecraft bot is a **programmatic client** that connects to a Minecraft server
 - Node.js v22+
 - Npm v10+
 
+## Switch Accounts
+To switch accounts, change the email in the configuration.
+
 ## Installation on linux
 - ## Java
 1. Open a terminal and install the libary
