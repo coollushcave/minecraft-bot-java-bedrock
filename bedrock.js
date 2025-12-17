@@ -2,9 +2,9 @@ const { createClient } = require('bedrock-protocol')
 const { Authflow, Titles } = require('prismarine-auth')
 
 const CONFIG = {
-  host: "donutsmp.net",
+  host: "example.server.ip",
   port: 19132,
-  afkIntervalMs: 15000
+  afkIntervalMs: 15000 // config
 }
 
 function startBot () {
