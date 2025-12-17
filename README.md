@@ -22,7 +22,7 @@ nano java
 const mc = require('minecraft-protocol');
 
 const CONFIG = {
-  host: "example.server.ip", // Server IP
+  host: "example.server.ip",
   port: 25565, // port
   username: "email", // Your minecraft email
   auth: "microsoft", // Auth
@@ -30,7 +30,7 @@ const CONFIG = {
 };
 
 function startBot() {
-  console.log("Starting bot");
+  console.log("Starting Java bot");
 
   const bot = mc.createClient({
     host: CONFIG.host,
@@ -80,9 +80,9 @@ const { createClient } = require('bedrock-protocol')
 const { Authflow, Titles } = require('prismarine-auth')
 
 const CONFIG = {
-  host: "donutsmp.net",
+  host: "example.server.ip",
   port: 19132,
-  afkIntervalMs: 15000
+  afkIntervalMs: 15000 // config
 }
 
 function startBot () {
