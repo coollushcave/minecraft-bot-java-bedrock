@@ -10,7 +10,7 @@ To switch accounts, change the email in the configuration.
 
 ## Installation on linux
 - ## Java
-1. Open a terminal and install the libary
+1. Open a terminal and install the libary:
 ```bash
 npm install minecraft-protocol
 ```
@@ -60,20 +60,20 @@ function startBot() {
 startBot();
 ```
 
-3. Run the bot
+3. Run the bot:
 ```bash
 node java
 ```
 
 - ## Bedrock
-1. Open a terminal and install the dependency and libary
+1. Open a terminal and install the dependency and libary:
 ```bash
 apt install -y build-essential cmake python3
 npm install bedrock-protocol
 npm install prismarine-auth
 ```
 
-2. Make the file
+2. Make the file:
 ```bash
 cd botclient
 nano bedrock
@@ -128,12 +128,38 @@ function startBot () {
 startBot()
 ```
 
-3. Run the bot
+3. Run the bot:
 ```bash
 node bedrock
+```
+
+## Installation on windows
+- ## Java
+- Download and install Node.js (LTS) [Node.js](https://nodejs.org)
+- Make sure Node.js is installed:
+```bash
+node -v
+npm -v
+```
+
+2. Open a terminal/powershell install required library:
+```bash
+npm init -y
+npm install minecraft-protocol
+```
+
+3. Create the bot file
+- Create a file named java, and paste the Java bot code into it.
+- Right click the folder/file and select Open in Terminal/cmd.
+- Run:
+```bash
+node java
 ```
 
 ## Error & Bugs
 - Bedrock auto-reconnect may not function reliably.
 - The Bedrock bot may fail to start due to a timeout. Try restart or reboot.
 - Some Bedrock errors may cause the Node.js process to stop.
+
+## Note
+- Bedrock bot for Windows will be added soon.
