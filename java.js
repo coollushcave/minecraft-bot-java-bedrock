@@ -16,7 +16,7 @@ function startBot() {
     port: CONFIG.port,
     username: CONFIG.username,
     auth: CONFIG.auth,
-    version: "1.21.x" minecraft version
+    version: "1.21.x" // minecraft version
   });
 
   bot.on("login", () => {
