@@ -35,7 +35,7 @@ const CONFIG = {
 };
 
 function startBot() {
-  console.log("Starting Java bot");
+  console.log("[INFO] Starting Java bot");
 
   const bot = mc.createClient({
     host: CONFIG.host,
@@ -46,11 +46,11 @@ function startBot() {
   });
 
   bot.on("login", () => {
-    console.log("Logged in to server!");
+    console.log("[INFO] Logged in to server!");
   });
 
   bot.on("end", () => {
-    console.log("Disconnected! Reconnecting in 5 seconds.");
+    console.log("[INFO] Disconnected! Reconnecting in 5 seconds.");
     setTimeout(startBot, 5000); // timer
   });
 
@@ -92,7 +92,7 @@ const CONFIG = {
 }
 
 function startBot () {
-  console.log("Starting bedrock bot")
+  console.log("[INFO] Starting bedrock bot")
 
   const authFlow = new Authflow(
     "bedrock-bot", // local identifier string
@@ -114,11 +114,11 @@ function startBot () {
   })
 
   client.on('spawn', () => {
-    console.log("Logged in to server!")
+    console.log("[INFO] Logged in to server!")
   })
 
   client.on('close', () => {
-    console.log("Disconnected! Reconnecting in 5 min");
+    console.log("[INFO] Disconnected! Reconnecting in 5 min");
     setTimeout(startBot, 300000) // put more times to safely reconnect
   })
 
