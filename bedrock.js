@@ -9,7 +9,7 @@ const CONFIG = {
 }
 
 function startBot () {
-  console.log("Starting bedrock bot")
+  console.log("[INFO] Starting bedrock bot")
 
   const authFlow = new Authflow(
     "bedrock-bot", // local identifier string
@@ -31,11 +31,11 @@ function startBot () {
   })
 
   client.on('spawn', () => {
-    console.log("Logged in to server!")
+    console.log("[INFO] Logged in to server!")
   })
 
   client.on('close', () => {
-    console.log("Disconnected! Reconnecting in 5 min");
+    console.log("[INFO] Disconnected! Reconnecting in 5 min");
     setTimeout(startBot, 300000) // put more times to safely reconnect
   })
 
