@@ -5,6 +5,7 @@ A Minecraft bot is a **programmatic client** that connects to a Minecraft server
 - Node.js v22+
 - Npm v10+
 - Ram 1GB+ to run multiple accounts
+- Install PM2 or create service file to run 24/7
 
 ## Switch Accounts
 To switch accounts, change the email in the configuration.
