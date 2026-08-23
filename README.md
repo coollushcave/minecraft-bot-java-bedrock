@@ -164,4 +164,4 @@ node java
 - Some Bedrock errors may cause the Node.js process to stop.
 
 ## Note
-- Bedrock bot for Windows will be added soon.
+- Discontinue
