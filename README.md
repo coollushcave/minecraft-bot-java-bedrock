@@ -1,5 +1,5 @@
 ## Minecraft bot
-A Minecraft bot is a **programmatic client** that connects to a Minecraft server and behaves like a player without running the full game client.
+A Minecraft bot without running the full game client.
 
 ## Requirements
 - Node.js v22+
